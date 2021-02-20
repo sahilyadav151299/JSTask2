@@ -1,0 +1,56 @@
+#main{
+    margin-left: 500px; 
+    margin-top: 50px;
+}
+
+/* Outer Boady */
+
+#outerBlock{
+    width: 300px;
+    height: 500px;
+    border: 3px solid black;
+}
+
+/* Application Name */
+
+#appCaption{
+    font-size: 30px;
+    background-color:coral;
+    color: white;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 10px;   
+}
+
+/* Labels */
+
+.labelField{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+/* Input Areas */
+
+.inputField{
+    border: 2px solid black;
+    height: 20px;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Operator Seclector */
+.operators{
+    border: 2px solid black;
+    height: 30px;
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}

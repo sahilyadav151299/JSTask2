@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" contetn="JS Assignment" />
+
+    <link rel="stylesheet" href="./stylesheet.css" type="text/css">
+
+    <title>Assignment 1</title>
+</head>
+<body>
+    
+    <div id="main">
+        <form>
+            <fieldset id="outerBlock">
+                
+                <legend id="appCaption">Calculator</legend>
+
+                    <!-- Input First -->
+                    <label for="operand1" class="labelField">First Input</label><br>
+                    <input type="text" id="operand1" class="inputField" name="operand1" value="0" autocomplete="off"><br>
+        
+                    <!-- Input Second -->
+                    <label for="operand2" class="labelField">Second Input</label><br>
+                    <input type="text" id="operand2" class="inputField" name="operand2" value="0" autocomplete="off"><br>
+
+                    <!-- Operator Selection -->
+                    <label for="operator" class="labelField">Choose An Operation</label><br>
+
+                    <select name="operator" id="operator" class="operators">
+
+                        <option value="Add">Addition (+)</option>
+                        <option value="Sub">Subtraction (-)</option>
+                        <option value="Mul">Multiplication (*)</option>
+                        <option value="Div">Division (/)</option>
+                        <option value="Mod">Modulus (%)</option>
+                        <option value="Exp">Exponentiation (**)</option>
+                        <option value="Default" selected>Select Operation</option>
+
+                    </select><br>
+                    
+                    <!-- Calculation Button -->
+                    <button type="button" onclick="calculateResult()" id="calculate" class="operators" style="height: 40px;">Calculate</button><br>
+
+                    <!-- Result Display -->
+                    <label for="result" class="labelField">Calculation Result</label><br>
+                    <input type="text" id="result" class="inputField" value="0" readonly style="height: 40px;">
+                
+            </fieldset>
+        </form>
+    </div>
+    
+    <script src="./utils.js"></script>
+
+</body>
+</html>
